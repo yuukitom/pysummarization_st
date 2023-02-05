@@ -1,0 +1,6 @@
+streamlit
+pysummarization
+MeCab
+pandas
+base64
+scikit-learn
