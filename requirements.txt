@@ -1,6 +1,5 @@
 streamlit
 pysummarization
-MeCab
+mecab-python3
 pandas
-base64
 scikit-learn
