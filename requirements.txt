@@ -1,5 +1,3 @@
 streamlit
 pysummarization
-mecab-python3
 pandas
-scikit-learn

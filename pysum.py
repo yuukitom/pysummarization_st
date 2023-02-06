@@ -1,6 +1,4 @@
 import pandas as pd
-from sklearn.utils.validation import column_or_1d
-import MeCab
 import base64
 import streamlit as st
 from pysummarization.nlpbase.auto_abstractor import AutoAbstractor
