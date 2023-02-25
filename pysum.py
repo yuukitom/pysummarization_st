@@ -27,7 +27,7 @@ def summarize(document):
 	auto_abstractor = AutoAbstractor()
 
 	# 日本語のトークナイザー設定（MeCab使用）
-	auto_abstractor.tokenizable_doc = MeCabTokenizer('-r /etc/mecabrc -d /home/user/app/mecab-unidic-neologd')
+	auto_abstractor.tokenizable_doc = MeCabTokenizer('-r /etc/mecabrc')
 
 	# 文のリストを作成するための区切り文字を設定
 	auto_abstractor.delimiter_list = ["。", "\n"]
@@ -50,7 +50,7 @@ def summarize(document):
 	nlp_base = NlpBase()
 
 	# トークナイザーを設定します。 これは、MeCabを使用した日本語のトークナイザーです
-	nlp_base.tokenizable_doc = MeCabTokenizer('-r /etc/mecabrc -d /home/user/app/mecab-unidic-neologd')
+	nlp_base.tokenizable_doc = MeCabTokenizer('-r /etc/mecabrc')
 
 	# 「類似性フィルター」のオブジェクト。 このオブジェクトによって観察される類似性は、Tf-Idfベクトルのいわゆるコサイン類似性です
 	similarity_filter = TfIdfCosine()
@@ -65,7 +65,7 @@ def summarize(document):
 	auto_abstractor = AutoAbstractor()
 
 	# 日本語のトークナイザー設定（MeCab使用）
-	auto_abstractor.tokenizable_doc = MeCabTokenizer('-r /etc/mecabrc -d /home/user/app/mecab-unidic-neologd')
+	auto_abstractor.tokenizable_doc = MeCabTokenizer('-r /etc/mecabrc')
 
 	# 文のリストを作成するための区切り文字を設定
 	auto_abstractor.delimiter_list = ["。", "\n"]
