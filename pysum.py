@@ -1,3 +1,8 @@
+import os
+
+os.system('git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git && cd mecab-ipadic-neologd && ./bin/install-mecab-ipadic-neologd -n -y -u -p $PWD')
+os.system('git clone --depth 1 https://github.com/neologd/mecab-unidic-neologd.git && cd mecab-unidic-neologd && ./bin/install-mecab-unidic-neologd -n -y -u -p $PWD')
+
 import pandas as pd
 import base64
 import streamlit as st
