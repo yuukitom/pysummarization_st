@@ -1,4 +1,5 @@
 mecab-python3
+mecab==0.996
 streamlit==1.17.0
 pysummarization==1.1.9
 pandas==1.5.2
